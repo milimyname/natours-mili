@@ -17,7 +17,8 @@
   }
 
   @include respond(phone) {
-    transform: skewX(0);
+    width: 60%;
+    transform: translateX(-1rem) skewX(0);
   }
 
   &__shape {
