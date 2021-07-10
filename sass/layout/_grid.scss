@@ -7,7 +7,7 @@
   }
 
   @include respond(phone) {
-    max-width: 50rem;
+    max-width: 40rem;
   }
 
   &:not(:last-child) {
