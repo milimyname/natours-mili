@@ -11,6 +11,10 @@ body {
 
   /* backface-visibility: hidden; */
 
+  @include respond(phone) {
+    width: 75%;
+  }
+
   &--main {
     display: block;
     font-size: 6rem;
